@@ -58,7 +58,6 @@ const SSOLogin = () => {
     }
     return (
       <Button w="$full" colorScheme="primary" onclick={login}>
-        <Icon cursor="pointer" boxSize="$8" as={icon} p="$0_5" />
         <span>{ssoDisplay}</span>
       </Button>
     )
