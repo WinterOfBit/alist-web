@@ -1,4 +1,4 @@
-import { Icon } from "@hope-ui/solid"
+import { Button, Icon } from "@hope-ui/solid"
 import { FiGithub, FiLogIn } from "solid-icons/fi"
 import { BsMicrosoft } from "solid-icons/bs"
 import { AiOutlineGoogle, AiOutlineDingtalk } from "solid-icons/ai"
@@ -11,6 +11,8 @@ const SSOLogin = () => {
   const ssoSignEnabled = getSettingBool("sso_login_enabled")
   const loginPlatform = getSetting("sso_login_platform")
   const usecompatibility = getSettingBool("sso_compatibility_mode")
+  //const ssoDisplay = getSetting("sso_display")
+  const ssoDisplay = "华南虎统一认证"
   const { searchParams, to } = useRouter()
   const token = searchParams["token"]
   if (token != undefined && token != "") {
@@ -55,7 +57,10 @@ const SSOLogin = () => {
         icon = FiLogIn
     }
     return (
-      <Icon cursor="pointer" boxSize="$8" as={icon} p="$0_5" onclick={login} />
+      <Button w="$full" colorScheme="primary" onclick={login}>
+        <Icon cursor="pointer" boxSize="$8" as={icon} p="$0_5" />
+        <span>{ssoDisplay}</span>
+      </Button>
     )
   }
 }
