@@ -260,6 +260,7 @@ const Login = () => {
         >
           {t("login.use_guest")}
         </Button>
+        <SSOLogin />
         <Flex
           mt="$2"
           justifyContent="space-evenly"
@@ -269,7 +270,6 @@ const Login = () => {
         >
           <SwitchLanguageWhite />
           <SwitchColorMode />
-          <SSOLogin />
           <Show when={AuthnSignEnabled}>
             <Icon
               cursor="pointer"
