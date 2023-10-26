@@ -1,0 +1,44 @@
+{
+  "common": {
+    "mount_path": "マウントパス",
+    "mount_path-tips": "マウントしたいパスは、一意で繰り返すことはできません",
+    "driver": "ドライバ",
+    "order": "シリアル番号",
+    "order-tips": "並べ替えに使用",
+    "status": "状態",
+    "remark": "注記",
+    "cache_expiration": "キャッシュの有効期限",
+    "cache_expiration-tips": "このストアのキャッシュ有効期限 (分)",
+    "down_proxy_url": "プロキシ URL のダウンロード",
+    "web_proxy": "Webプロキシ",
+    "webdav_policy": "WebDAVポリシー",
+    "webdav_policys": {
+      "302_redirect": "302リダイレクト",
+      "use_proxy_url": "プロキシURLを使用する",
+      "native_proxy": "ネイティブプロキシ"
+    },
+    "order_by": "並べ替え",
+    "order_bys": {
+      "name": "名前",
+      "size": "サイズ",
+      "modified": "更新日時"
+    },
+    "order_direction": "並べ替え方法",
+    "order_directions": {
+      "asc": "昇順",
+      "desc": "降順"
+    },
+    "extract_folder": "フォルダーの抽出",
+    "extract_folders": {
+      "front": "前面に抽出",
+      "back": "奥に抽出"
+    },
+    "enable_sign": "署名を有効にする"
+  },
+  "other": {
+    "start_load_success": "読み込みを開始",
+    "load_all": "すべてリロード",
+    "filter_by_driver": "ドライブで絞り込む",
+    "table_layout": "テーブルのレイアウト"
+  }
+}

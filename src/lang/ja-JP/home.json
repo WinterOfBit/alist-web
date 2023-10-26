@@ -1,0 +1,134 @@
+{
+  "obj": {
+    "name": "名前",
+    "size": "サイズ",
+    "modified": "更新日時"
+  },
+  "preview": {
+    "download": "ダウンロード",
+    "failed_load_img": "画像の読み込みに失敗しました",
+    "open_with": "で開く...",
+    "play_with": "Play with ...",
+    "install": "取り付ける",
+    "installing": "インストール中",
+    "tr-install": "TrollStore",
+    "tr-installing": "TrollStore インストール中",
+    "open_in_new_window": "新しいウィンドウで開く",
+    "auto_next": "自動で次へ"
+  },
+  "layouts": {
+    "list": "リスト表示",
+    "grid": "グリッドビュー",
+    "image": "画像ビュー"
+  },
+  "no_images": "現在のフォルダに画像がありません",
+  "load_more": "さらに読み込む",
+  "no_more": "これ以上はない",
+  "input_password": "パスワードを入力してください",
+  "toolbar": {
+    "more": "もっと",
+    "refresh": "更新",
+    "toggle_theme": "テーマを切り替える",
+    "switch_lang": "言語の切り替え",
+    "toggle_checkbox": "トグルチェックボックス",
+    "rename": "名前を変更",
+    "input_new_name": "新しい名前を入力",
+    "only_one-tips": "名前の変更に選択できるオブジェクトは 1 つだけです。",
+    "move": "移動",
+    "copy": "コピー",
+    "choose_dst_folder": "保存先フォルダを選択",
+    "delete": "削除",
+    "delete-tips": "選択したオブジェクトを削除してもよろしいですか?",
+    "copy_link": "リンクをコピー",
+    "preview_page": "プレビューページ",
+    "down_link": "ダウンロードリンク",
+    "encode_down_link": "ダウンロードリンクをエンコードする",
+    "mkdir": "新規フォルダ",
+    "input_dir_name": "入力フォルダ名",
+    "new_file": "新規ファイル",
+    "input_filename": "入力ファイル名",
+    "cancel_select": "選択のキャンセル",
+    "offline_download": "オフラインダウンロード",
+    "offline_download-tips": "1 行に 1 つの URL",
+    "download": "ダウンロード",
+    "batch_download": "一括ダウンロード",
+    "package_download": "パッケージ化とダウンロード",
+    "package_download_disabled": "パッケージ化されたダウンロードは無効です",
+    "send_aria2": "Aria2に送る",
+    "aria2_not_set": "aria2 rpc url を設定する",
+    "send_aria2_success": "aria2に正常に送信しました",
+    "pre_package_download-tips": "パッケージのダウンロードにサーバーの代わりにブラウザーで streamsaver を使用するには、cors をサポートするための対応するストレージが必要であり、サポートされていないストレージは失敗します。",
+    "package_download-tips": "お待ちください。 ページを閉じない",
+    "upload": "アップロード",
+    "local_settings": "ローカル設定",
+    "recursive_move": "再帰的な移動",
+    "recursive_move_directory-tips": "現在のフォルダとそのサブフォルダ内のすべてのファイルを指定したフォルダに移動しますか?",
+    "remove_empty_directory": "空のフォルダを削除",
+    "remove_empty_directory-tips": "すべての空のサブフォルダを削除してもよろしいですか?",
+    "batch_rename": "名前の一括変更",
+    "regex_rename": "Regex Rename",
+    "sequential_renaming": "Sequential Rename",
+    "regex_rename_preview": "変更されたファイル",
+    "regex_rename_preview_old_name": "古い名前",
+    "regex_rename_preview_new_name": "新しい名前",
+    "regular_rename": "Regular expression file renaming. Input the source file name regular expression on the first line, and input the new file name regular expression on the second line.",
+    "sequential_renaming_desc": "新しいファイル名には、数値の開始値が追加され、開始値に1を追加して順次表示されます。新しいファイル名を最初の行に、開始値を2行目に入力してください。"
+  },
+  "upload": {
+    "add_as_task": "タスクとして追加",
+    "upload-tips": "ここにファイルをドラッグしてアップロードするか、以下をクリックします。:",
+    "release": "リリースしてアップロードする",
+    "no_files_drag": "ドラッグされたファイルはありません。",
+    "upload_files": "ファイルを選択",
+    "upload_folder": "フォルダを選択",
+    "pending": "待つこと。。。",
+    "uploading": "アップロード",
+    "backending": "バックエンドでのアップロード",
+    "success": "成功",
+    "error": "エラー",
+    "back": "アップロードに戻る",
+    "clear_done": "クリア完了"
+  },
+  "local_settings": {
+    "aria2_rpc_url": "Aria2 RPC URL",
+    "aria2_rpc_secret": "Aria2 RPC 秘密",
+    "aria2_dir": "Aria2 ダウンロードディレクトリ",
+    "show_folder_in_image_view": "画像でフォルダを表示",
+    "show_folder_in_image_view_options": {
+      "top": "上部",
+      "bottom": "下部",
+      "none": "何一つ"
+    },
+    "global_default_layout": "一般のデフォルトレイアウト",
+    "global_default_layout_options": {
+      "list": "リスト表示",
+      "grid": "グリッドビュー",
+      "image": "画像ビュー"
+    }
+  },
+  "package_download": {
+    "current_status": "現在のステータス",
+    "initializing": "初期化",
+    "fetching_struct": "フォルダー構造のフェッチ",
+    "fetching_struct_failed": "フォルダ構造の取得に失敗しました",
+    "downloading": "ファイルをダウンロードし、ページを閉じたり更新したりしない",
+    "failed": "パッケージのダウンロードに失敗しました",
+    "success": "ダウンロード完了"
+  },
+  "footer": {
+    "powered_by": "AListを搭載",
+    "manage": "取り締まる"
+  },
+  "search": {
+    "search": "捜索",
+    "no_result": "まだ結果がありません",
+    "scopes": {
+      "all": "すべて",
+      "folder": "フォルダ",
+      "file": "ファイル"
+    }
+  },
+  "fetching_settings_failed": "フェッチ設定の失敗: ",
+  "get_current_user_failed": "現在のユーザーの取得に失敗しました: ",
+  "Loading storage, please wait": "ストレージを読み込んでいます。お待ちください"
+}

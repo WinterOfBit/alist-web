@@ -1,0 +1,12 @@
+{
+  "path": "パス",
+  "password": "パスワード",
+  "write": "書く",
+  "hide": "隠れる",
+  "readme": "説明",
+  "readme_help": "Render a markdown at the bottom, support content or link",
+  "header": "Header",
+  "header_help": "Render a markdown at the top, support content or link",
+  "apply_sub": "サブフォルダに適用",
+  "hide_help": "1 行に 1 つの正規表現"
+}

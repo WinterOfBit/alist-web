@@ -1,0 +1,14 @@
+{
+  "backup": "バックアップ",
+  "restore": "復元",
+  "start_backup": "バックアップを開始",
+  "finish_backup": "バックアップを完了",
+  "success_backup_item": "[ {{item}} ] バックアップに成功しました",
+  "failed_backup_item": "[ {{item}} ] バックアップに失敗しました",
+  "no_file": "ファイルが選択されていません",
+  "start_restore": "復元を開始",
+  "finish_restore": "復元を完了する",
+  "success_restore_item": "[ {{item}} ] バックアップに成功しました",
+  "failed_restore_item": "[ {{item}} ] バックアップに失敗しました",
+  "override": "オーバーライド"
+}
